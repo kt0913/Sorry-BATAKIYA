@@ -3,15 +3,15 @@ const codeInput = document.getElementById('code');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 
-const secretCode = 'SALMALI'; 
+const secretCode = 'KAVYA'; 
 const nextPageUrl = 'main.html'; 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
 	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'WELCOME GOLU BACCHA';
+		resultDiv.innerHTML = 'WELCOME PASANDIDA MAHILA';
 		window.location.href = nextPageUrl;
 	} else {
-		resultDiv.innerHTML = 'Wrong name u are not my golu baccha';
+		resultDiv.innerHTML = 'Wrong name u are not my pasandida mahila';
 	}
 });
