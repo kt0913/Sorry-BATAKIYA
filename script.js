@@ -3,7 +3,7 @@ const codeInput = document.getElementById('code');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 
-const secretCode = 'KAVYA'; 
+const secretCode = 'Kavya'; 
 const nextPageUrl = 'main.html'; 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
